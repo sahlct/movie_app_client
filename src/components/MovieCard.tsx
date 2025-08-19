@@ -31,8 +31,8 @@ export default function MovieCard({ title, year, poster, imdbID, onSaved, saved,
 
   return (
     <div className="card overflow-hidden flex flex-col">
-      {/* Poster smaller height (was aspect-[2/3]) */}
-      <div className="aspect-[2/2.8] bg-white/5 flex items-center justify-center">
+      {/* Poster with fixed equal height */}
+      <div className="h-72 w-full bg-white/5 flex items-center justify-center overflow-hidden">
         {poster && poster !== "N/A" ? (
           <img src={poster} alt={title} className="w-full h-full object-cover" />
         ) : (

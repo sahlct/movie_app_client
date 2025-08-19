@@ -26,7 +26,7 @@ export default function RegisterPage() {
   }
 
   return (
-    <div className="h-full flex justify-center items-center">
+    <div className="h-[80vh] flex justify-center items-center">
       <div className="max-w-md mx-auto">
         <div className="card p-6">
           <h1 className="text-2xl font-bold mb-4">Create your account</h1>

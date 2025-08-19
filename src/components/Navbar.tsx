@@ -25,8 +25,8 @@ export default function Navbar() {
   }
 
   const menuItems = [
-    { href: "/saved", label: "Saved Movies" },
     { href: "/search", label: "Search Movies" },
+    { href: "/saved", label: "Saved Movies" },
   ];
 
   return (
